@@ -52,7 +52,7 @@ Ziel des Notebooks ist ein klarer Überblick darüber, **welche Modelle intern r
 
 ## paper_shap_final.ipynb
 
-Dieses Notebook fokussiert auf die **globale und lokale Interpretierbarkeit von Verletzungsmodellen** mithilfe von SHAP. Es untersucht, welche Merkmale die Modellvorhersagen über viele Cross-Validation-Durchläufe hinweg am stärksten beeinflussen, in welche Richtung diese Effekte wirken und wie stabil diese Muster über Personen hinweg sind.
+Dieses Notebook fokussiert auf die **globale und lokale Interpretierbarkeit von Verletzungsmodellen** mithilfe von SHAP und auf Basis von LogOdds. Es untersucht, welche Merkmale die Modellvorhersagen über viele Cross-Validation-Durchläufe hinweg am stärksten beeinflussen, in welche Richtung diese Effekte wirken und wie stabil diese Muster über Personen hinweg sind.
 
 Enthalten sind unter anderem:
 
