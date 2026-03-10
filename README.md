@@ -1,4 +1,4 @@
-# acl_ml_classifier
+# ACL_ML_Classifier
 
 ## paper_maestroni_motum_externe_validierung.ipynb
 
@@ -35,3 +35,17 @@ Enthalten sind unter anderem:
 Ziel des Notebooks ist es zu untersuchen, **wie synthetische Datenerweiterung die Modellstabilität, Interpretierbarkeit und Vorhersageleistung neuronaler Netze beeinflusst** und gleichzeitig sicherzustellen, dass die erzeugten Daten statistisch plausibel bleiben.
 
 
+## paper_roc_auc.ipynb
+
+Dieses Notebook fokussiert auf den **Vergleich mehrerer Klassifikationsmodelle** sowohl im internen als auch im externen Setting. Ziel ist es, die Modelle systematisch danach zu beurteilen, wie gut sie innerhalb des eigenen Datensatzes und auf einem unabhängigen externen Datensatz generalisieren.
+
+Enthalten sind unter anderem:
+
+- **Externe Validierung mehrerer Modelle**, trainiert auf dem Motum-Datensatz und getestet auf dem Maestroni-Datensatz
+- **Vergleich zentraler Gütemaße** wie AUROC, LogLoss und Brier Score inklusive Bootstrap-Konfidenzintervallen
+- **Gemeinsame ROC-Darstellungen**, um die externe Modellleistung direkt visuell zu vergleichen
+- **Interner Modellvergleich** über wiederholte Cross-Validation mit OOF-Vorhersagen
+- **Kombination aus threshold-freien und threshold-basierten Kennwerten**, um sowohl die generelle Trennschärfe als auch die praktische Klassifikationsleistung zu bewerten
+- **Übersichtliche Ergebnistabellen**, die den Vergleich der Modelle kompakt zusammenfassen
+
+Ziel des Notebooks ist ein klarer Überblick darüber, **welche Modelle intern robust performen und welche ihre Leistung auch auf externe Daten am besten übertragen können**.
