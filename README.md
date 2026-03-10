@@ -81,3 +81,21 @@ Enthalten sind unter anderem:
 - **Lokale SHAP-Waterfall-Plots** für einzelne Beobachtungen, sowohl in vollständiger als auch in kompakter Top-Feature-Darstellung
 
 Ziel des Notebooks ist es, Modellvorhersagen nicht nur technisch, sondern auch **inhaltlich anschaulich und direkt auf der Ebene der Vorhersagewahrscheinlichkeit** interpretierbar zu machen.
+
+
+## philipp_ml_feature_selection.ipynb
+
+Dieses Notebook fokussiert auf die **systematische Merkmalsauswahl für Verletzungsmodelle**. Ziel ist es, leistungsrelevante Features zu identifizieren, redundante Variablen zu erkennen und den Datensatz schrittweise zu bereinigen, ohne dabei wichtige inhaltliche Information zu verlieren.
+
+Enthalten sind unter anderem:
+
+- **Vergleich mehrerer Klassifikationsmodelle**, um die grundsätzliche Modellleistung auf dem Datensatz einzuordnen
+- **Korrelationsanalysen und Clusterbildung**, um stark zusammenhängende bzw. redundante Feature-Gruppen sichtbar zu machen
+- **Globale SHAP-Analysen** für logistische Regression, um die wichtigsten Prädiktoren und ihre Wirkungsrichtung zu bestimmen
+- **Konsistenzprüfungen der SHAP-Erklärungen**, um die Nachvollziehbarkeit der Modellvorhersagen sicherzustellen
+- **Verknüpfung von Korrelationsclustern und SHAP-Wichtigkeit**, damit redundante Features nicht nur statistisch, sondern auch inhaltlich bewertet werden können
+- **SHAP-gestützte Feature-Selektion**, bei der schwächere oder stark redundante Variablen gezielt entfernt werden
+- **Automatisierte Bereinigung und Neuerstellung von Datensätzen** nach der Feature-Auswahl
+- **Erneute Modellbewertung auf den bereinigten Datensätzen**, um zu prüfen, wie sich die Reduktion auf Leistung und Interpretierbarkeit auswirkt
+
+Ziel des Notebooks ist eine **nachvollziehbare und datengetriebene Reduktion des Feature-Sets**, um ein kompakteres, robusteres und besser interpretierbares Modell zu erhalten.
