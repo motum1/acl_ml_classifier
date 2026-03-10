@@ -65,3 +65,19 @@ Enthalten sind unter anderem:
 - **Lokale SHAP-Waterfall-Plots**, um einzelne Vorhersagen anschaulich und nachvollziehbar zu erklären
 
 Ziel des Notebooks ist es, die entwickelten Modelle nicht nur hinsichtlich ihrer Leistung, sondern auch hinsichtlich ihrer **inhaltlichen Nachvollziehbarkeit und Interpretierbarkeit** transparent darzustellen.
+
+
+## paper_shap_final_prob.ipynb
+
+Dieses Notebook fokussiert auf die **Interpretation von Modellvorhersagen auf Wahrscheinlichkeitsebene**. Im Mittelpunkt steht die Frage, wie stark einzelne Merkmale die vorhergesagte Verletzungswahrscheinlichkeit erhöhen oder senken und wie sich diese Beiträge sowohl global als auch für einzelne Fälle verständlich darstellen lassen.
+
+Enthalten sind unter anderem:
+
+- **Datenqualitätskontrolle** durch visuelle Ausreißererkennung in Excel
+- **SHAP-Analysen auf Probability-Ebene** für logistische Regression und XGBoost
+- **Globale Feature-Rankings**, um die wichtigsten Prädiktoren auf Wahrscheinlichkeitsbasis zu identifizieren
+- **Plausibilitätsprüfungen der SHAP-Werte**, um die Konsistenz zwischen Modellvorhersage und SHAP-Erklärung zu kontrollieren
+- **Gut lesbare globale SHAP-Visualisierungen**, die die wichtigsten Features und deren Einflussrichtung konsistent darstellen
+- **Lokale SHAP-Waterfall-Plots** für einzelne Beobachtungen, sowohl in vollständiger als auch in kompakter Top-Feature-Darstellung
+
+Ziel des Notebooks ist es, Modellvorhersagen nicht nur technisch, sondern auch **inhaltlich anschaulich und direkt auf der Ebene der Vorhersagewahrscheinlichkeit** interpretierbar zu machen.
