@@ -17,3 +17,21 @@ Enthalten sind unter anderem:
 - **Experimentelle Ansätze mit neuronalen Netzen und synthetischer Datenerweiterung**
 
 Das Notebook dient damit als zentrale Arbeitsumgebung für die Frage, **wie stabil und übertragbar Verletzungsmodelle über verschiedene Datensätze hinweg sind** und wie sich Unterschiede in Datenstruktur und Kalibrierung auf die externe Modellleistung auswirken.
+
+
+## paper_neuronales_netz.ipynb
+
+Dieses Notebook enthält experimentelle Analysen zur **synthetischen Datenerweiterung und Modellinterpretation** für neuronale Netze im Kontext der Verletzungsvorhersage. Der Fokus liegt darauf, Trainingsdaten kontrolliert zu augmentieren, deren Qualität zu prüfen und die Auswirkungen auf Modellleistung und Interpretierbarkeit zu untersuchen.
+
+Enthalten sind unter anderem:
+
+- **Framework zur synthetischen Datengenerierung** mit verschiedenen Verfahren, insbesondere Copula-basierter Augmentierung
+- **Drift- und Qualitätsanalysen** zum Vergleich realer und synthetischer Daten anhand mehrerer statistischer Metriken und Visualisierungen
+- **Quality-Assurance-Runner**, die synthetische Daten hinsichtlich Verteilung, Multivariatstruktur und Unterscheidbarkeit von realen Daten prüfen
+- **Cross-Validation-basierte SHAP-Analysen**, um die wichtigsten Einflussfaktoren eines neuronalen Netzes zu identifizieren
+- **Interne Modellpipeline** mit neuronalen Netzen, Copula-basierter Datenaugmentation, Kalibrationsanalyse und Decision-Curve-Analyse
+- **Publikationsnahe SHAP-Visualisierungen**, die die wichtigsten Features und deren Einflussrichtung übersichtlich darstellen
+
+Ziel des Notebooks ist es zu untersuchen, **wie synthetische Datenerweiterung die Modellstabilität, Interpretierbarkeit und Vorhersageleistung neuronaler Netze beeinflusst** und gleichzeitig sicherzustellen, dass die erzeugten Daten statistisch plausibel bleiben.
+
+
