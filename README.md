@@ -49,3 +49,19 @@ Enthalten sind unter anderem:
 - **Übersichtliche Ergebnistabellen**, die den Vergleich der Modelle kompakt zusammenfassen
 
 Ziel des Notebooks ist ein klarer Überblick darüber, **welche Modelle intern robust performen und welche ihre Leistung auch auf externe Daten am besten übertragen können**.
+
+## paper_shap_final.ipynb
+
+Dieses Notebook fokussiert auf die **globale und lokale Interpretierbarkeit von Verletzungsmodellen** mithilfe von SHAP. Es untersucht, welche Merkmale die Modellvorhersagen über viele Cross-Validation-Durchläufe hinweg am stärksten beeinflussen, in welche Richtung diese Effekte wirken und wie stabil diese Muster über Personen hinweg sind.
+
+Enthalten sind unter anderem:
+
+- **SHAP-Analysen für logistische Regression und XGBoost** auf Basis wiederholter Cross-Validation
+- **Globale Feature-Rankings**, um die wichtigsten Einflussgrößen der Modelle zu identifizieren
+- **Vergleich von Effektstärke und Effektrichtung**, also nicht nur wie wichtig ein Merkmal ist, sondern auch ob es eher in Richtung „verletzt“ oder „unverletzt“ wirkt
+- **Konsistenzprüfungen der SHAP-Erklärungen**, um sicherzustellen, dass die SHAP-Werte mit den Modellvorhersagen übereinstimmen
+- **Übersichtliche globale SHAP-Visualisierungen**, sowohl für alle Merkmale als auch fokussiert auf die wichtigsten Top-Features
+- **Subjektbezogene SHAP-Auswertungen** mit statistischen Kennzahlen und Konfidenzintervallen
+- **Lokale SHAP-Waterfall-Plots**, um einzelne Vorhersagen anschaulich und nachvollziehbar zu erklären
+
+Ziel des Notebooks ist es, die entwickelten Modelle nicht nur hinsichtlich ihrer Leistung, sondern auch hinsichtlich ihrer **inhaltlichen Nachvollziehbarkeit und Interpretierbarkeit** transparent darzustellen.
